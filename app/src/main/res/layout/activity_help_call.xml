@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_blue"
+    tools:context=".HelpCallActivity">
+
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="700dp"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/app_name"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:orientation="vertical"
+        android:layout_marginRight="40dp"
+        tools:ignore="MissingConstraints">
+
+
+        <ImageButton
+            android:id="@+id/phone_contact"
+            android:background="@drawable/buttontype"
+            android:layout_width="105dp"
+            android:layout_height="105dp"
+            android:layout_marginTop="50dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/contact_info"
+            tools:ignore="SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="115dp"
+            tools:layout_editor_absoluteY="63dp" />
+        <TextView
+            android:id="@+id/phone_contact_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="@color/orange"
+            android:text="PHONE CONTACTS"
+            android:textAlignment="center"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+
+
+
+        <ImageButton
+            android:id="@+id/police"
+            android:background="@drawable/buttontype"
+            android:layout_width="105dp"
+            android:layout_height="105dp"
+            android:layout_marginTop="15dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/police_station"
+            tools:ignore="SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="115dp"
+            tools:layout_editor_absoluteY="63dp" />
+        <TextView
+            android:id="@+id/police_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="@color/orange"
+            android:text="POLICE HELPLINE"
+            android:textAlignment="center"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+
+
+
+        <ImageButton
+            android:id="@+id/road_police"
+            android:background="@drawable/buttontype"
+            android:layout_width="105dp"
+            android:layout_height="105dp"
+            android:layout_marginTop="15dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/police"
+            tools:ignore="SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="115dp"
+            tools:layout_editor_absoluteY="63dp" />
+        <TextView
+            android:id="@+id/road_police_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="@color/orange"
+            android:text="HIGHWAY/MOTORWAY HELPLINE"
+            android:textAlignment="center"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+
+
+
+        <ImageButton
+            android:id="@+id/rangers"
+            android:background="@drawable/buttontype"
+            android:layout_width="105dp"
+            android:layout_height="105dp"
+            android:layout_marginTop="15dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/soldier"
+            tools:ignore="SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="115dp"
+            tools:layout_editor_absoluteY="63dp" />
+        <TextView
+            android:id="@+id/rangers_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="@color/orange"
+            android:text="RANGERS HELPLINE"
+            android:textAlignment="center"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+
+
+
+        <ImageButton
+            android:id="@+id/rescue"
+            android:background="@drawable/buttontype"
+            android:layout_width="105dp"
+            android:layout_height="105dp"
+            android:layout_marginTop="15dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/rescue"
+            tools:ignore="SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="115dp"
+            tools:layout_editor_absoluteY="63dp" />
+        <TextView
+            android:id="@+id/rescue_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="@color/orange"
+            android:text="RESCUE HELPLINE"
+            android:textAlignment="center"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+
+
+
+
+        <ImageButton
+            android:id="@+id/edhi"
+            android:background="@drawable/buttontype"
+            android:layout_width="105dp"
+            android:layout_height="105dp"
+            android:layout_marginTop="15dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/ambulance"
+            tools:ignore="SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="115dp"
+            tools:layout_editor_absoluteY="63dp" />
+        <TextView
+            android:id="@+id/edhi_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="@color/orange"
+            android:text="EDHI HELPLINE"
+            android:textAlignment="center"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+
+
+
+
+        <ImageButton
+            android:id="@+id/chhipa"
+            android:background="@drawable/buttontype"
+            android:layout_width="105dp"
+            android:layout_height="105dp"
+            android:layout_marginTop="15dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/ambulance"
+            tools:ignore="SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="115dp"
+            tools:layout_editor_absoluteY="63dp" />
+        <TextView
+            android:id="@+id/chhipa_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="@color/orange"
+            android:text="CHHIPA HELPLINE"
+            android:textAlignment="center"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+    </ScrollView>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
